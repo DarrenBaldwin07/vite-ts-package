@@ -1,3 +1,5 @@
+export * from './components';
+
 function helloWorld() {
 	return 'helloWorld';
 }
