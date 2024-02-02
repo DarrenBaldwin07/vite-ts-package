@@ -1,7 +1,6 @@
 export * from './components';
 
-function helloWorld() {
+export function helloWorld() {
+	const thing = 1;
 	return 'helloWorld';
 }
-
-export default helloWorld;
