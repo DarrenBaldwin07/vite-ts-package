@@ -17,7 +17,7 @@
 		"build": "vite build",
 		"test": "vitest",
 		"lint": "eslint src",
-		"lint:fix": "npm run lint -- --fix",
+		"lint:fix": "pnpm run lint -- --fix",
 		"pretty": "prettier --write \"./**/*.{ts,tsx,json}\" --config ./prettier.config.js",
 		"storybook": "storybook dev -p 6006",
 		"build-storybook": "storybook build"
