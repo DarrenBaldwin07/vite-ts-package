@@ -10,7 +10,7 @@ export default defineConfig({
 			insertTypesEntry: true,
 		}),
 	],
-	// we should add in alias' here for @components etc (using the resolve: {} prop)
+	// we should add in alias here for @components etc (using the resolve: {} prop)
 	build: {
 		lib: {
 			entry: resolve(__dirname, 'src/index.ts'),
